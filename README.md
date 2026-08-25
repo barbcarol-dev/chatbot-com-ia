@@ -47,7 +47,7 @@ Projeto desenvolvido como estudo prático durante a **Jornada Python**, promovid
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/barbcarol-dev/chatbot-streamlit.git](https://github.com/barbcarol-dev/chatbot-streamlit.git)
+   git clone https://github.com/barbcarol-dev/chatBot-com-IA.git
    ```
 
 2. Acesse a pasta do projeto:

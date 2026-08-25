@@ -47,12 +47,12 @@ Projeto desenvolvido como estudo prático durante a **Jornada Python**, promovid
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/barbcarol-dev/chatBot-com-IA.git
+   git clone https://github.com/barbcarol-dev/chatbot-com-ia.git
    ```
 
 2. Acesse a pasta do projeto:
    ```bash
-   cd chatBot-com-IA
+   cd chatbot-com-ia
    ```
 
 3. Instale as bibliotecas necessárias:

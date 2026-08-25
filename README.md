@@ -52,7 +52,7 @@ Projeto desenvolvido como estudo prático durante a **Jornada Python**, promovid
 
 2. Acesse a pasta do projeto:
    ```bash
-   cd chatbot-streamlit
+   cd chatBot-com-IA
    ```
 
 3. Instale as bibliotecas necessárias:

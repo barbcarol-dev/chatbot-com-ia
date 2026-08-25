@@ -32,39 +32,47 @@ Projeto desenvolvido como estudo prático durante a **Jornada Python**, promovid
 ├── main.py             # Código principal da aplicação
 ├── auxiliar.py         # Funções auxiliares e scripts secundários
 └── README.md           # Documentação do projeto
+```
 
-Como Executar o Projeto
-Pré-requisitos
-Python 3.8+ instalado.
+---
 
-Chave de API da OpenAI (API Key).
+## Como Executar o Projeto
 
-Instruções de Instalação e Execução
-Clone o repositório:
+### Pré-requisitos
 
-Bash
-git clone [https://github.com/barbcarol-dev/NOME_DO_REPOSITORIO.git](https://github.com/barbcarol-dev/NOME_DO_REPOSITORIO.git)
-Acesse a pasta do projeto:
+- **Python 3.8+** instalado em sua máquina.
+- **Chave de API da OpenAI** (API Key).
 
-Bash
-cd NOME_DO_REPOSITORIO
-Instale as dependências:
+### Instruções
 
-Bash
-pip install streamlit openai
-Configure a chave de API:
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/barbcarol-dev/chatbot-streamlit.git](https://github.com/barbcarol-dev/chatbot-streamlit.git)
+   ```
 
-Crie a pasta .streamlit na raiz do projeto (caso não exista).
+2. Acesse a pasta do projeto:
+   ```bash
+   cd chatbot-streamlit
+   ```
 
-Crie o arquivo secrets.toml dentro da pasta .streamlit com a seguinte estrutura:
+3. Instale as bibliotecas necessárias:
+   ```bash
+   pip install streamlit openai
+   ```
 
-Ini, TOML
-OPENAI_API_KEY = "sua-chave-api-aqui"
-Execute a aplicação:
+4. Configure as credenciais da API:
+   - Crie uma pasta chamada `.streamlit` na raiz do projeto.
+   - Crie o arquivo `secrets.toml` dentro da pasta `.streamlit`.
+   - Adicione sua chave de API no arquivo: `OPENAI_API_KEY = "sua-chave-aqui"`
 
-Bash
-streamlit run main.py
-Autora
-Bárbara Caroline
+5. Inicie a aplicação:
+   ```bash
+   streamlit run main.py
+   ```
 
+---
+
+## Autora
+
+**Bárbara Caroline**  
 Estudante de Programação, Python e Análise de Dados.
